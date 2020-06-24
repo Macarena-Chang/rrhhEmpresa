@@ -1,4 +1,4 @@
-package ar.com.ada.api.models.responses;
+package ar.com.ada.api.rrhh.models.responses;
 
 public class GenericResponse {
     

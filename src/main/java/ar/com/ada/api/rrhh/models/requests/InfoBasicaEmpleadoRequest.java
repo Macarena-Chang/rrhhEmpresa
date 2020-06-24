@@ -1,4 +1,4 @@
-package ar.com.ada.api.models.requests;
+package ar.com.ada.api.rrhh.models.requests;
 
 import java.math.BigDecimal;
 
