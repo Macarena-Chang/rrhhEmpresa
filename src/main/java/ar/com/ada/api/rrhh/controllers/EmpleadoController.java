@@ -73,24 +73,6 @@ public class EmpleadoController {
 
     }
 
-    @PutMapping("/empleados/{id}/sueldos")
-    public ResponseEntity<?> actualizarSueldoEmpelado(@PathVariable int id, @RequestBody SueldoInfoRequest infoNueva) {
-
-        Empleado empleadoOriginal = empleadoService.traerEmpledoPorId(id);
-
-        if (empleadoOriginal != null) {
-
-            empleadoService.actualizarSueldoEmpleado(empleadoOriginal, infoNueva.sueldoNuevo);
-
-            GenericResponse resp = new GenericResponse();
-            resp.isOk = true;
-            resp.id = empleadoOriginal.getEmpleadoId();
-            resp.message = "Se ha actualizado con exito";
-
-            return ResponseEntity.ok(resp);
-        }
-        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-    }
 
     @PutMapping("/empleados/{id}/sueldos")
     public ResponseEntity<?> actualizarSueldoEmpleado(@PathVariable int id, @RequestBody SueldoInfoRequest infoNueva) {
