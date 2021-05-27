@@ -3,6 +3,7 @@
 * Utilizando: Springboot
 * Deployado: Heroku ➡️ https://sistema-rrhh.herokuapp.com/ (se utilizo POSTGRE para base de datos ya que es de manera gratuita) 
 * Base de datos: MYSQL
+* Swagger Documentation
 
 
 **Sistema de gestion de empleados en donde podemos:**
