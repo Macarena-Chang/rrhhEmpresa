@@ -33,3 +33,8 @@
  GET("/categorias")  -->Obtener categorias
  ```
  
+ 
+ 
+ 🔷Swagger Doc Added 
+ ![Swagger Documentation](src/main/java/ar/com/ada/api/rrhh/swaggerDoc.png)
+  
